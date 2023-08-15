@@ -1,0 +1,53 @@
+.services {
+    margin: 10rem auto;
+    margin-bottom: 1rem;
+    width: 60rem;
+    text-align: center;
+
+   .cat {
+        color: #DF6951;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+   }
+
+    h1 {
+        color: #181E4B;
+        text-align: center;
+        font-family: Volkhov;
+        font-size: 50px;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        .box {
+            width: 189px;
+            height: 234px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 10px;
+
+            .text {
+                // width: 189px;
+
+                .t1 {
+                    font-size: 1.1rem;
+                    font-weight: bold;
+                }
+            }
+
+            img {
+                height: 70px;
+                // width: 50px;
+                // object-fit: cover;
+            }
+        }
+    }
+}

@@ -1,0 +1,132 @@
+.hero {
+    background-image: url('../../assets/Rectangle\ 19290.png');
+    background-size: cover;
+    padding: 0 174px;
+    font-family: poppins;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 0;
+
+    .title {
+        margin-top: 15rem;
+
+        h1 {
+            width: 35rem;
+            font-size: 3rem;
+            color: #FFF;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 50px; /* 116.071% */
+            margin: 0;
+                }
+    } 
+    
+    .bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 5.224px;
+        background-color: rgba(243, 243, 243, 0.60);
+        backdrop-filter: blur(17.760618209838867px);
+        height: 5.5rem;
+        width: 50rem;
+        padding: 0.5rem;
+        margin: 1rem 0;
+        border-radius: 5px;
+        color: #FFF;
+
+        .options {
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            width: 18rem;
+
+            p {
+                display: flex;
+                justify-content: space-between;
+                width: 10rem;
+            }
+        }
+
+        .options.travel {
+
+            img {
+                margin: 0 25px;
+            }
+        }
+
+        .btn {
+            background-color: #DF6951;
+            border: none;
+            border-radius: 10px;
+            padding: 0.5rem 1rem;
+            margin: 0 1rem;
+            color: #fff;
+            width: 12rem;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+    }
+
+    .users {
+        display: flex;
+        overflow: hidden;
+
+        .user-avatars {
+            display: flex;
+            align-items: center;
+            margin-right: 2.5rem;
+
+            img{
+                margin-right: -15px;
+            }
+
+            p {
+                margin-left: -10px;
+            }
+        } 
+        
+        p {
+            font-size: 0.7rem;
+        }
+
+    }
+
+    .scroll {
+        display: flex;
+        justify-content: space-between;
+        width: 50rem;
+        margin: 4rem 1rem 0 1rem;
+
+        .ellipse {
+
+            .e1 {
+                position: absolute;
+                left: 1.5rem;
+                top: 37rem;
+            }
+
+            .e2 {
+                position: absolute;
+                left: 8rem;
+                top: 43.5rem;
+            }
+        }
+
+
+    }
+}
+
+.brands {
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7F7F7;
+    margin: 0;
+    height: 200px;
+
+    img {
+        height: 50px;
+    }
+}

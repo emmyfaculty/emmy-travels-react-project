@@ -1,0 +1,66 @@
+.romantic {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75rem;
+    margin: 5rem auto;
+    
+    .left {
+        width: 600px;
+        position: relative;
+
+        .illustration {
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .plus {
+            position: absolute;
+            top: 533px;
+            left: 524px;
+            z-index: -1;
+        }
+    }
+
+    .right {
+        width: 509px;
+
+        .t1 {
+            color: #DF6951;
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 1.8px;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        h1 {
+            color: #181E4B;
+            font-family: Volkhov;
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 71.042px; /* 142.085% */
+            margin: 0;
+        }
+
+        p {
+            color: #000
+        }
+
+        .btn {
+            display: flex;
+            width: 176.561px;
+            height: 56.416px;
+            padding: 0px 36.566px 9.403px 0px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            background: #DF6951;
+            color: #fff;
+            box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+            margin: 25px 0;
+        }
+    }
+
+}
